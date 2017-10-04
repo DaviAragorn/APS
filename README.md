@@ -1,5 +1,6 @@
 #                      TRACK-IT
-        -- Rastreia coisas e tudo mais --  
+                                     -- Rastreia coisas e tal --
+                                            -- UAU!1 --
         
                                         .:+shdmNMMMMMMNmdhs+:.                                       
                                   `:ohNMMMMMMMMMMMMMMMMMMMMMMNho:`                                  
