@@ -7,6 +7,13 @@ public class Position { // ESPECIALIASTA DA INFORMAÇÃO, ATRIBUINDO A
 	private float latitude;
 	private float longitude;
 
+	public Position(float latitude, float longitude) {
+		super();
+		this.latitude = latitude;
+		this.longitude = longitude;
+	}
+
+
 	public float getLatitude() {
 		return latitude;
 	}

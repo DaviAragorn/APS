@@ -1,15 +1,19 @@
 package br.com.ufc.track_it.objects;
 
+import br.com.ufc.track_it.observer.NotificationsListenner;
+import br.com.ufc.track_it.observer.NotificationsType;
+
 public class Chip implements NotificationsListenner { //USANDO PADRÃO OBSERVER
 	private int numero;
 	int creditos;
 	boolean status;
 	String SignalStrenght;
 
+	
 	public int getNumero() {
 		return numero;
 	}
-
+	
 	public void setNumero(int numero) {
 		this.numero = numero;
 	}

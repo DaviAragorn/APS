@@ -1,10 +1,22 @@
 package br.com.ufc.track_it.objects;
 
+import br.com.ufc.track_it.adapter.TypeChip;
+import br.com.ufc.track_it.factory.TrackerCarSystem;
+import br.com.ufc.track_it.factory.TrackerGraber;
+import br.com.ufc.track_it.factory.TrackerSascar;
+import br.com.ufc.track_it.factory.TrackerType;
+import br.com.ufc.track_it.observer.NotificationsListenner;
+import br.com.ufc.track_it.observer.NotificationsType;
+
 public class Tracker implements NotificationsListenner { // IMPLEMENTS DO
 															// OBSERVER
 	Position pos;
 	int leftCharge = 100;
 	Chip chip;
+
+
+	
+
 
 	public void bateriaFraca() {
 		System.out.println("A bateria de seu rastreador está quase no fim !\n"
@@ -45,5 +57,9 @@ public class Tracker implements NotificationsListenner { // IMPLEMENTS DO
 													// OBSERVER
 		System.out.println(tipo);
 		bateriaFraca();
+	}
+	
+	public Chip getChip() {
+		return this.chip;
 	}
 }

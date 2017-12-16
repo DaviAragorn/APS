@@ -64,6 +64,14 @@ public class User {
 		this.nick = nick;
 	}
 
+	public ArrayList<Object> getObjetcts() {
+		return objeto;
+	}
+
+	public void setObjeto(Object objeto) {
+		this.objeto.add(objeto);
+	}
+
 	@Override
 	public String toString() {
 		return "User\nNome: " + nome + ", Nick: "+nick+", Senha: " + senha + ", Id= " + id + ", Objetos: " + objeto + ", Perfil: " + perfil;

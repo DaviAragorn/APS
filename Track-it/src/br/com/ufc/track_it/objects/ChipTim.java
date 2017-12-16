@@ -5,5 +5,5 @@ public class ChipTim extends Chip {
 	protected void colocarCreditosTim(int creditos) {
 		System.out.println("colocarCreditosTim "+creditos);
 	}
-
+	
 }

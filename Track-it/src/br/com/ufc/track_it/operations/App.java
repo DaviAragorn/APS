@@ -2,8 +2,11 @@ package br.com.ufc.track_it.operations;
 
 import java.util.ArrayList;
 
+import br.com.ufc.track_it.fachada.Fachada;
+import br.com.ufc.track_it.objects.Position;
 import br.com.ufc.track_it.objects.Profile;
 import br.com.ufc.track_it.objects.User;
+import br.com.ufc.track_it.repository.User_Repo;
 
 public class App {
 	String nome;
@@ -39,6 +42,7 @@ public class App {
 		// Servico.addItem(u, i)
 		
 		// List<Item> itens = Servico.listarItens(u)
+		
 		
 		// Posicao p = Servico.getPosicao(i);
 		
